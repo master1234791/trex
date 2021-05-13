@@ -114,9 +114,9 @@ function draw() {
     
     if(obstaclesGroup.isTouching(trex)){
         trex.velocityY = -12;
-        jumpSound.play();
-        // gameState = END;
-        // dieSound.play()
+        //jumpSound.play();
+        gameState = END;
+        dieSound.play()
       
     }
   }
